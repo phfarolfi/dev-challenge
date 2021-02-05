@@ -1,0 +1,69 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 1250px;
+}
+
+header {
+    margin-top: 40px;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#navbar-1 a:hover {
+    color: #D2872C;
+}
+
+nav h1 {
+    color: #D2872C;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+nav h1:hover {
+    color: #aa6e25;
+}
+
+#navbar-1 a {
+    color: black;
+    font-size: 1.5em;
+}
+
+#home h1 {
+    font-size: 4.5em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#home {
+    margin-top: 100px;
+    padding-left: 80px;
+    padding-bottom: 100px;
+    color: #766F68;
+    background: url(../assets/team.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+    background-position: 450px 25px;
+}
+
+#home p {
+    font-size: 1.7em;
+    margin-bottom: 50px;
+}
+
+#home a {
+    border-radius: 8px;
+    background-color: #D2872C;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 10px 60px;
+}
+
+#home a:hover {
+    background-color: #aa6e25;
+}
