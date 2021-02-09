@@ -6,34 +6,27 @@
     width: 85%;
 }
 
+a, a:hover {
+    text-decoration: none;
+}
+
+/* ------------ BARRA DE NAVEGAÇÃO ------------ */
 header {
     margin-top: 25px;
 }
 
 #logo h1 {
-    font-size: 1.5em;
+    color: #D2872C;
+    font-size: 2em;
+    font-weight: 700;
 }
 
-a, a:hover {
-    text-decoration: none;
+#logo h1:hover {
+    color: #aa6e25;
 }
 
 #navbar-1 li {
     font-size: 0.7em;
-}
-
-#navbar-1 a:hover {
-    color: #D2872C;
-}
-
-nav h1 {
-    color: #D2872C;
-    font-size: 2.2em;
-    font-weight: 700;
-}
-
-nav h1:hover {
-    color: #aa6e25;
 }
 
 #navbar-1 a {
@@ -41,6 +34,11 @@ nav h1:hover {
     font-size: 1.5em;
 }
 
+#navbar-1 a:hover {
+    color: #D2872C;
+}
+
+/* ------------ HOME ------------ */
 .home {
     margin-top: 30px;
     color: #766F68;
@@ -48,6 +46,8 @@ nav h1:hover {
 
 .home-img {
     width: 85%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .home-text {
@@ -56,7 +56,7 @@ nav h1:hover {
 }
 
 .home-text h1 {
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -82,25 +82,91 @@ nav h1:hover {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+    .home-text h1 {
+        font-size: 2.5em;
+    }
     
+    .home-text p {
+        font-size: 1.3em;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-
+    .home-text h1 {
+        font-size: 3.2em;
+    }
+    
+    .home-text p {
+        font-size: 1.6em;
+    }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+    .home-text h1 {
+        font-size: 5em;
+        padding: 0;
+    }
 
+    .home-img {
+        margin-top: 150px;
+        width: 55%;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    
+    .home-text {
+        padding: 0 30px;
+        width: 70%;
+        text-align: start;
+        position: absolute;
+    }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+    #logo h1 {
+        font-size: 2.2em;
+    }
 
+    #navbar-1 li {
+        font-size: 1em;
+    }
+
+    .home-text h1 {
+        width: 80%;
+    }
+
+    .home-img {
+        margin-top: 65px;
+        width: 65%;
+    }
+    
+    .home-text {
+        padding: 0 40px;
+    }
 }
 
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
+    #logo h1 {
+        font-size: 2.5em;
+    }
 
+    #navbar-1 li {
+        font-size: 1.1em;
+    }
+
+    .home-text h1 {
+        width: 70%;
+    }
+
+    .home-img {
+        margin-top: 50px;
+    }
+    
+    .home-text {
+        padding: 0 50px;
+    }
 }
